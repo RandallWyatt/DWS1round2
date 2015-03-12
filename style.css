@@ -1,0 +1,67 @@
+/*CSS STYLESHEET*/
+
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #AE0E03;
+    font-weight: bold;
+    text-align: left;
+    font-style: italic;
+    font-size: 2.813em;
+    text-shadow: 0.250em 0.250em 0.250em #aeaeae;
+    width: 54.688em;
+    margin-left: -8%;
+
+}
+h2{
+    font-family: Arial, veranda, serif;
+    font-size: 2.000em;
+    font-weight: bolder;
+    text-align:center;
+}
+content{
+    text-align:center;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    width: 545px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+h3,h4 {font-family: Arial,veranda,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+p{
+    text-align:left;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    width: 600px;
+
+}
+div{
+
+    margin-left: auto;
+    margin-right: auto;
+    border: .125em solid #000000;
+    padding: 0.625em 9.375em;
+    width: 37.500em;
+    border-radius: 0.313em;
+    background:#fff;
+    box-shadow: 0.625em 0.625em 0.313em #bababa;
+}
+a:link {
+    color: #ee82ee;
+    text-decoration: none;
+}
+a:visited {
+    color: #0f1fd0;
+    text-decoration: none;
+}
+a:hover{
+    color: #8b0000;
+    text-decoration: underline;
+}
+a:active{
+    color: #14d7b0;
+}

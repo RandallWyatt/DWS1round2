@@ -15,6 +15,8 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 960px;
+    background: url(“images/woodpattern.jpg”) repeat-y, url(“images/restaurant.jpg”) no-repeat right top;
+
 }
 /*Main Title*/
 h1 {

@@ -1,5 +1,21 @@
 /*CSS STYLESHEET*/
 
+/*Gradient*/
+body{
+background: #ff0000;
+background: -moz-linear-gradient(top,  #ff0000 0%, #f16f5c 47%, #ffe62b 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0000), color-stop(47%,#f16f5c), color-stop(100%,#ffe62b));
+background: -webkit-linear-gradient(top,  #ff0000 0%,#f16f5c 47%,#ffe62b 100%);
+background: -o-linear-gradient(top,  #ff0000 0%,#f16f5c 47%,#ffe62b 100%);
+background: -ms-linear-gradient(top,  #ff0000 0%,#f16f5c 47%,#ffe62b 100%);
+background: linear-gradient(to bottom,  #ff0000 0%,#f16f5c 47%,#ffe62b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#ffe62b',GradientType=0 );
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
 /*Main Title*/
 h1 {
     font-family: 'Lobster', cursive;
@@ -47,6 +63,7 @@ p{
 }
 
 /*White DIV box and drop Shadow*/
+
 div{
 
     margin: auto;
@@ -59,6 +76,7 @@ div{
 }
 
 /* NAV colors */
+
 a:link {
     color: #ee82ee;
     text-decoration: none;

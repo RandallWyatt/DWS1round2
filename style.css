@@ -2,8 +2,9 @@
 /* Begin Navigation Bar Styling */
 
 #nav {
-    width: 100%;
-    float: left;
+    width: 37.500em;
+    float: right;
+    clear: both;
     margin: 0 0 3em 0;
     padding: 0;
     list-style: none;
@@ -53,6 +54,8 @@ h1 {
     text-shadow: 0.250em 0.250em 0.250em #aeaeae;
     width: 54.688em;
     margin-left: -8%;
+    float: left;
+    clear: both;
 
 }
 h2{
@@ -138,9 +141,8 @@ a:active{
     font-family: 'Helvetica Neue',Helvetica,sans-serif;
     text-decoration: none;
     vertical-align: middle;
-    min-width:18.750em;
-    padding:1.250em;
-    width:18.750em;
+    padding: 1.250em;
+    width: 24.50em;
 }
 .form-field {
     border: 0.188em solid #999693;
@@ -152,9 +154,10 @@ a:active{
     -webkit-box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(000,000,000,0.7) 0 0.000em 0.000em;
     -moz-box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(000,000,000,0.7) 0 0.000em 0.000em;
     box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(000,000,000,0.7) 0 0.000em 0.000em;
-    padding:0.500em;
-    margin-bottom:1.250em;
-    width:18.750em;
+    padding: 0.500em;
+    margin-bottom: 1.250em;
+    width: 15.250em;
+    overflow: hidden;
 }
 .form-field:focus {
     background: #fff;
@@ -162,19 +165,22 @@ a:active{
 }
 .form-container h4 {
     text-shadow: #a39482 0 0.063em 0;
-    font-size:1.125em;
-    margin: 0 0 0.625em 0;
-    font-weight:bold;
-    text-align:center;
+    font-size: 1.125em;
+    margin: 0 0 0 -3.250em;
+    font-weight: bold;
+    text-align: left;
+    width: 15.250em;
 }
 .form-title {
-    margin-bottom:0.625em;
+    margin-bottom: 0.625em;
     color: #000000;
     text-shadow: #a39482 0 0.063em 0;
+    width: 5.250em;
 }
 .submit-container {
-    margin:0.500em 0;
-    text-align:right;
+    margin: 0.500em 0;
+    text-align: right;
+    width: 5.250em;
 }
 .submit-button {
     border: 0.063em solid #447314;

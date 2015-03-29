@@ -1,5 +1,29 @@
 /*CSS STYLESHEET*/
+/* Begin Navigation Bar Styling */
 
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style: none;
+}
+#nav li {
+    float: left; }
+#nav li a {
+    display: inline-block;
+    padding: 0.500em 0.938em;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    border-right: 0.063em solid #ccc;
+
+}
+#nav li a:hover {
+    color: #12cc0e;
+}
+
+/* End navigation bar styling. */
 /*Gradient*/
 body{
 background: #ff0000;
@@ -15,10 +39,10 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 960px;
-    background: url(“images/woodpattern.jpg”) repeat-y, url(“images/restaurant.jpg”) no-repeat right top;
 
 }
 /*Main Title*/
+
 h1 {
     font-family: 'Lobster', cursive;
     color: #AE0E03;
@@ -93,4 +117,109 @@ a:hover{
 }
 a:active{
     color: #14d7b0;
+}
+/* Reservation form */
+
+.form-container {
+    border: 0.313em solid #1c0f01;
+    background: #eeff00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff6b26), to(#eeff00));
+    background: -webkit-linear-gradient(top, #ff6b26, #eeff00);
+    background: -moz-linear-gradient(top, #ff6b26, #eeff00);
+    background: -ms-linear-gradient(top, #ff6b26, #eeff00);
+    background: -o-linear-gradient(top, #ff6b26, #eeff00);
+    background-image: -ms-linear-gradient(top, #ff6b26 0%, #eeff00 100%);
+    -webkit-border-radius: 0.375em;
+    -moz-border-radius: 0.375em;
+    border-radius: 0.375em;
+    -webkit-box-shadow: rgba(000,000,000,0.9) 0 0.063em 0.125em, inset rgba(255,255,255,0.4) 0 0.063em 0;
+    -moz-box-shadow: rgba(000,000,000,0.9) 0 0.063em 0.125em, inset rgba(255,255,255,0.4) 0 0.063em 0;
+    box-shadow: rgba(000,000,000,0.9) 0 0.063em 0.125em, inset rgba(255,255,255,0.4) 0 0.063em 0;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+    min-width:18.750em;
+    padding:1.250em;
+    width:18.750em;
+}
+.form-field {
+    border: 0.188em solid #999693;
+    background: #ffffff;
+    -webkit-border-radius: 0.625em;
+    -moz-border-radius: 0.625em;
+    border-radius: 0.625em;
+    color: #000000;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(000,000,000,0.7) 0 0.000em 0.000em;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(000,000,000,0.7) 0 0.000em 0.000em;
+    box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(000,000,000,0.7) 0 0.000em 0.000em;
+    padding:0.500em;
+    margin-bottom:1.250em;
+    width:18.750em;
+}
+.form-field:focus {
+    background: #fff;
+    color: #000000;
+}
+.form-container h4 {
+    text-shadow: #a39482 0 0.063em 0;
+    font-size:1.125em;
+    margin: 0 0 0.625em 0;
+    font-weight:bold;
+    text-align:center;
+}
+.form-title {
+    margin-bottom:0.625em;
+    color: #000000;
+    text-shadow: #a39482 0 0.063em 0;
+}
+.submit-container {
+    margin:0.500em 0;
+    text-align:right;
+}
+.submit-button {
+    border: 0.063em solid #447314;
+    background: #6aa436;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+    background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+    background: -moz-linear-gradient(top, #8dc059, #6aa436);
+    background: -ms-linear-gradient(top, #8dc059, #6aa436);
+    background: -o-linear-gradient(top, #8dc059, #6aa436);
+    background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+    -webkit-border-radius: 0.313em;
+    -moz-border-radius: 0.313em;
+    border-radius: 0.313em;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(255,255,255,0.4) 0 0.063em 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(255,255,255,0.4) 0 0.063em 0;
+    box-shadow: rgba(255,255,255,0.4) 0 0.063em 0, inset rgba(255,255,255,0.4) 0 0.063em 0;
+    text-shadow: #65c704 0 0.063em 0;
+    color: #000000;
+    font-family: helvetica, serif;
+    padding: 0.531em 1.125em;
+    font-size: 0.875em;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.submit-button:hover {
+    border: 0.063em solid #447314;
+    text-shadow: #31540c 0 0.063em 0;
+    background: #6aa436;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+    background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+    background: -moz-linear-gradient(top, #8dc059, #6aa436);
+    background: -ms-linear-gradient(top, #8dc059, #6aa436);
+    background: -o-linear-gradient(top, #8dc059, #6aa436);
+    background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+    color: #fff;
+}
+.submit-button:active {
+    text-shadow: #31540c 0 0.063em 0;
+    border: 0.063em solid #447314;
+    background: #8dc059;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6aa436), to(#6aa436));
+    background: -webkit-linear-gradient(top, #6aa436, #8dc059);
+    background: -moz-linear-gradient(top, #6aa436, #8dc059);
+    background: -ms-linear-gradient(top, #6aa436, #8dc059);
+    background: -o-linear-gradient(top, #6aa436, #8dc059);
+    background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
+    color: #fff;
 }
